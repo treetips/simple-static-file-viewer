@@ -44,10 +44,6 @@ Change the version of docker-compose.yml from 3 to 2 when you use docker which d
 2. copy static files to htdocs directory.
 3. browse http://localhost:8081/
 
-## Installation
-
-    $ git clone https://github.com/treetips/simple-static-file-viewer.git
-
 ## Change Lang
 
 Edit docker-compose.yml.
