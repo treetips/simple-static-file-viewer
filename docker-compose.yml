@@ -6,6 +6,7 @@ services:
       - /etc/localtime:/etc/localtime:ro
       - ./default.conf:/etc/nginx/conf.d/default.conf:ro
       - ./htdocs:/var/www/html:ro
+      - ./assets/:/etc/nginx/assets/:ro
     image: treetips/simple-static-file-viewer
     container_name: simple-static-file-viewer
     tty: true
