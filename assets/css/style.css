@@ -1,0 +1,155 @@
+pre {
+    overflow: auto;
+    margin: 1.5em;
+    line-height: 2.5em;
+}
+
+pre a[href]:before,
+pre a[href$="/"]:before {
+    content: "";
+    padding: 10px 30px 0 0;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+}
+
+a[href$="/"] {
+    color: #a8930f;
+}
+
+a[href]:before {
+    background: url(../images/icons/default.png);
+}
+a[href$="/"]:before {
+    background: url(../images/icons/folder.png);
+}
+
+a[href$=".7z"]:before {
+    background: url(../images/icons/7z.png);
+}
+a[href$=".ae"]:before {
+    background: url(../images/icons/ae.png);
+}
+a[href$=".ai"]:before {
+    background: url(../images/icons/ai.png);
+}
+a[href$=".apk"]:before {
+    background: url(../images/icons/apk.png);
+}
+a[href$=".avi"]:before {
+    background: url(../images/icons/avi.png);
+}
+a[href$=".bak"]:before {
+    background: url(../images/icons/bak.png);
+}
+a[href$=".bmp"]:before {
+    background: url(../images/icons/bmp.png);
+}
+a[href$=".css"]:before {
+    background: url(../images/icons/css.png);
+}
+a[href$=".csv"]:before {
+    background: url(../images/icons/csv.png);
+}
+a[href$=".dll"]:before {
+    background: url(../images/icons/dll.png);
+}
+a[href$=".doc"]:before {
+    background: url(../images/icons/doc.png);
+}
+a[href$=".docx"]:before {
+    background: url(../images/icons/docx.png);
+}
+a[href$=".dwg"]:before {
+    background: url(../images/icons/dwg.png);
+}
+a[href$=".eps"]:before {
+    background: url(../images/icons/eps.png);
+}
+a[href$=".exe"]:before {
+    background: url(../images/icons/exe.png);
+}
+a[href$=".flv"]:before {
+    background: url(../images/icons/flv.png);
+}
+a[href$=".fw"]:before {
+    background: url(../images/icons/fw.png);
+}
+a[href$=".gif"]:before {
+    background: url(../images/icons/gif.png);
+}
+a[href$=".gz"]:before {
+    background: url(../images/icons/gz.png);
+}
+a[href$=".html"]:before {
+    background: url(../images/icons/html.png);
+}
+a[href$=".ico"]:before {
+    background: url(../images/icons/ico.png);
+}
+a[href$=".iso"]:before {
+    background: url(../images/icons/iso.png);
+}
+a[href$=".jar"]:before {
+    background: url(../images/icons/jar.png);
+}
+a[href$=".jpg"]:before {
+    background: url(../images/icons/jpg.png);
+}
+a[href$=".js"]:before {
+    background: url(../images/icons/js.png);
+}
+a[href$=".mov"]:before {
+    background: url(../images/icons/mov.png);
+}
+a[href$=".mp3"]:before {
+    background: url(../images/icons/mp3.png);
+}
+a[href$=".mp4"]:before {
+    background: url(../images/icons/mp4.png);
+}
+a[href$=".mpeg"]:before {
+    background: url(../images/icons/mpeg.png);
+}
+a[href$=".pdf"]:before {
+    background: url(../images/icons/pdf.png);
+}
+a[href$=".php"]:before {
+    background: url(../images/icons/php.png);
+}
+a[href$=".png"]:before {
+    background: url(../images/icons/png.png);
+}
+a[href$=".ppt"]:before {
+    background: url(../images/icons/ppt.png);
+}
+a[href$=".ps"]:before {
+    background: url(../images/icons/ps.png);
+}
+a[href$=".psd"]:before {
+    background: url(../images/icons/psd.png);
+}
+a[href$=".rar"]:before {
+    background: url(../images/icons/rar.png);
+}
+a[href$=".svg"]:before {
+    background: url(../images/icons/svg.png);
+}
+a[href$=".swf"]:before {
+    background: url(../images/icons/swf.png);
+}
+a[href$=".tar"]:before {
+    background: url(../images/icons/tar.png);
+}
+a[href$=".tiff"]:before {
+    background: url(../images/icons/tiff.png);
+}
+a[href$=".txt"]:before {
+    background: url(../images/icons/txt.png);
+}
+a[href$=".wav"]:before {
+    background: url(../images/icons/wav.png);
+}
+a[href$=".zip"]:before {
+    background: url(../images/icons/zip.png);
+}
