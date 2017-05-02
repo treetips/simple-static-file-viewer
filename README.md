@@ -38,11 +38,16 @@ Change the version of docker-compose.yml from 3 to 2 when you use docker which d
 
 もしdocker-composeのv3に対応していないdockerを使用している場合、docker-compose.ymlのversionを3から2に変更して下さい。
 
+## Screenshot
+
+<img width="427" alt="screenshot01" src="https://cloud.githubusercontent.com/assets/12574048/25602139/6065d390-2f2c-11e7-9d51-e867da3a1740.png">
+
 ## Usage
 
-1. docker-compose up -d
-2. copy static files to htdocs directory.
-3. browse http://localhost:8081/
+1. git clone https://github.com/treetips/simple-static-file-viewer.git
+2. docker-compose up -d
+3. copy static files to htdocs directory.
+4. browse http://localhost:8081/
 
 ## Change Lang
 
